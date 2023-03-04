@@ -75,11 +75,11 @@ function rouletteRendererEventHandler() {
             cardInner.dataset.type = type;
             const flip_card_html = `
                 <div class="card-front">
-                    <img src="images/card_front.jpg" alt="purple card with question mark on it">
+                    <img src="static/images/card_front.jpg" alt="purple card with question mark on it">
                 </div>
     
                 <div class="card-back">
-                    <img src="images/card_back_${type}.jpg" alt="card with a ${type} on it">
+                    <img src="static/images/card_back_${type}.jpg" alt="card with a ${type} on it">
                 </div>
             `;
             cardInner === null || cardInner === void 0 ? void 0 : cardInner.insertAdjacentHTML('beforeend', flip_card_html);
